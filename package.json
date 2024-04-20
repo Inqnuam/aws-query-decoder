@@ -1,8 +1,9 @@
 {
   "name": "aws-query-decoder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AWS Query Protocol body decoder",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "repository": "git@github.com:Inqnuam/aws-query-decoder.git",
   "homepage": "https://github.com/Inqnuam/aws-query-decoder",
   "author": "Inqnuam",

@@ -22,12 +22,6 @@ function decodeLine(body, components, value) {
   }
 }
 
-/**
- * @param {string} query  Raw AWS Query Protocol encoded body string.
- * @example decode("Action=GetQueueUrl&QueueName=MyQueue")
- * @returns {Object.<string, any>}
- */
-
 function decode(query) {
   const lines = query.split("&");
 
